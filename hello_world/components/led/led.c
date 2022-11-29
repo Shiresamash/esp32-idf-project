@@ -16,11 +16,11 @@ void led_init(void)
 void led_open(void)
 {
     gpio_set_level(LED_GPIO_PIN, 1);
-    printf("led on\n");
+    // printf("led on\n");
 }
 
 void led_close(void)
 {
     gpio_set_level(LED_GPIO_PIN, 0);
-    printf("led off\n");
+    // printf("led off\n");
 }
